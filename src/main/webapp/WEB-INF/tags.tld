@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+	<tlib-version>2.0</tlib-version>
+	<short-name>tr03802_tags</short-name>
+	<uri>http://www.Yuhuwum2.com/tag</uri>
+	<tag>
+		<name>page</name>
+		<tag-class>tag.PageTag</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+			<name>controller</name>
+			<!-- 是否必填 -->
+			<required>true</required>
+			<!-- 属性值是否可以为EL -->
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>curpage</name>
+			<!-- 是否必填 -->
+			<required>true</required>
+			<!-- 属性值是否可以为EL -->
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>pagesize</name>
+			<!-- 是否必填 -->
+			<required>true</required>
+			<!-- 属性值是否可以为EL -->
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>total</name>
+			<!-- 是否必填 -->
+			<required>true</required>
+			<!-- 属性值是否可以为EL -->
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>where</name>
+			<!-- 是否必填 -->
+			<required>false</required>
+			<!-- 属性值是否可以为EL -->
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+<!-- 	<function>
+		<name>size</name>
+		<function-class>tag.ListFunction</function-class>
+		<function-signature>java.lang.Integer size(java.util.Collection)</function-signature>
+	</function> -->
+</taglib>
